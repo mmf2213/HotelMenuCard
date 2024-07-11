@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/drink"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scroll">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="        Select Drinks"
+                android:textColor="#B53232"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c1"
+                android:text="Apple"
+                android:layout_below="@+id/b1"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c2"
+                android:text="Pineapple"
+                android:layout_below="@+id/c1"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c3"
+                android:text="Sweet Lime"
+                android:layout_below="@+id/c2"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c4"
+                android:text= "Fresh Lime"
+                android:layout_below="@+id/c3"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c5"
+                android:text="Orange"
+                android:layout_below="@+id/c4"/>
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#80E1E1B3"
+                android:text="MOCTAILS"
+                android:textColor="#B53232"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c6"
+                android:text="Kiwi Classic"
+                android:layout_below="@+id/b2"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c7"
+                android:text= "Pink Lady"
+                android:layout_below="@+id/c6"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c8"
+                android:text= "Fruit Punch"
+                android:layout_below="@+id/c7"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c9"
+                android:text="Pina Colada"
+                android:layout_below="@+id/c8"/>
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#80E1E1B3"
+                android:text="MILK SHAKES"
+                android:textColor="#B53232"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c10"
+                android:text="Mix FruitShake"
+                android:layout_below="@+id/b3"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c11"
+                android:text= "Chocklate Milkshake"
+                android:layout_below="@+id/c10"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c12"
+                android:text="Vanela Milkshake"
+                android:layout_below="@+id/c11"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c13"
+                android:text="Strawberry Milkshake"
+                android:layout_below="@+id/c11"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c14"
+                android:text="Mango Milkshake"
+                android:layout_below="@+id/c13"/>
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#80E1E1B3"
+                android:text="HOT BEVRAGES"
+                android:textColor="#B53232"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c15"
+                android:text="Regular tea"
+                android:layout_below="@+id/b4"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c16"
+                android:text="Indian Masala tea"
+                android:layout_below="@+id/c15"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c17"
+                android:text="Black Tea"
+                android:layout_below="@+id/c16"/>
+
+            <Button
+                android:id="@+id/t5"
+                android:layout_width="174dp"
+                android:layout_height="63dp"
+                android:layout_below="@+id/c8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="54dp"
+                android:layout_marginEnd="119dp"
+                android:layout_marginBottom="42dp"
+                android:background="#80E1E1B3"
+                android:text="Save"
+                android:textColor="#B52E2E"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

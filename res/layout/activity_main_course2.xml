@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/main"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scroll">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center|center_horizontal|fill_horizontal"
+                android:text="        Select food"
+                android:textColor="#000000"
+                android:textSize="40dp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#80E1E1B3"
+                android:text="ROTIES"
+                android:textColor="#E32C28"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c1"
+                android:text="Cheese Nan"
+                android:layout_below="@+id/b1"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c3"
+                android:text="Hariyali Nan"
+                android:layout_below="@+id/c2"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c4"
+                android:text="Plain Nan"
+                android:layout_below="@+id/c3"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c5"
+                android:text="Butter Nan"
+                android:layout_below="@+id/c4"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c6"
+                android:text="Stuffed Masala Nan"
+                android:layout_below="@+id/c5"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c7"
+                android:text="Onion Kulcha"
+                android:layout_below="@+id/c6"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c8"
+                android:text="Methi Paratha"
+                android:layout_below="@+id/c7"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c9"
+                android:text="Butter Paratha"
+                android:layout_below="@+id/c8"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c10"
+                android:text="Plain Paratha"
+                android:layout_below="@+id/c9"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c11"
+                android:text="Plain Roti"
+                android:layout_below="@+id/c10"/>
+
+            <Button
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#80E1E1B3"
+                android:text="DAL"
+                android:textColor="#E32C28"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/c12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t1"
+                android:text="Dal Tadka" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c13"
+                android:text="Dal Makhni"
+                android:layout_below="@+id/c12"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c14"
+                android:text="Dal Fry"
+                android:layout_below="@+id/c13"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c15"
+                android:text="Dal Palak"
+                android:layout_below="@+id/c14"/>
+
+            <Button
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#80E1E1B3"
+                android:text="KAJU_KOFTAS"
+                android:textColor="#E32C28"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c16"
+                android:text="Khoya Kaju"
+                android:layout_below="@+id/c15"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c17"
+                android:text="Khoya Kaju"
+                android:layout_below="@+id/c16"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c18"
+                android:text="Kaju Kari"
+                android:layout_below="@+id/c17"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c19"
+                android:text="Khoya Kaju"
+                android:layout_below="@+id/c18"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c20"
+                android:text="Kaju Kadhai"
+                android:layout_below="@+id/c19"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c21"
+                android:text="Veg Kofta"
+                android:layout_below="@+id/c20"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c22"
+                android:text="Malai Kofta"
+                android:layout_below="@+id/c21"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c23"
+                android:text="Chess Kofta"
+                android:layout_below="@+id/c22"/>
+
+            <Button
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c23"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#80E1E1B3"
+                android:text="VEGETABLES"
+                android:textColor="#E32C28"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c24"
+                android:text="Tava Vegitable"
+                android:layout_below="@+id/c23"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c25"
+                android:text="Veg Toofani"
+                android:layout_below="@+id/c24"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c26"
+                android:text="Veg Handi Masala"
+                android:layout_below="@+id/c25"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c27"
+                android:text="Plain Palak"
+                android:layout_below="@+id/c26"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c28"
+                android:text="chana Masala"
+                android:layout_below="@+id/c27"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c29"
+                android:text="Aloo Mutter Masala "
+                android:layout_below="@+id/c28"/>
+
+            <Button
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c28"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:background="#80E1E1B3"
+                android:text="INDIAN RICE"
+                android:textColor="#E32C28"
+                android:textSize="16sp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c30"
+                android:text="Special Veg Biryani"
+                android:layout_below="@+id/c29"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c31"
+                android:text="Veg Haydrabadi Biryani"
+                android:layout_below="@+id/c30"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c32"
+                android:text="Peas pulao"
+                android:layout_below="@+id/c31"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c33"
+                android:text="Jeera Rice"
+                android:layout_below="@+id/c32"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c34"
+                android:text="Lemon Rice"
+                android:layout_below="@+id/c33"/>
+
+            <Button
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c34"
+                android:layout_gravity="center"
+                android:background="#80E1E1B3"
+                android:foregroundGravity="center_vertical|center"
+                android:gravity="center"
+                android:text="Save"
+                android:textColor="#E32C28"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

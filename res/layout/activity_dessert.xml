@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/dessert1" />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Select Dessert"
+        android:textColor="#B52E2E"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="238dp"
+        android:background="#80E1E1B3"
+        android:text="DESSERT"
+        android:textColor="#B52E2E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:text="Chocolate"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c1"
+        android:text="Butterscotch"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/c3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c2"
+        android:text="Mango"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/c4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c3"
+        android:text="Strawberry"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/c5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c4"
+        android:text="Roasted almond"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="242dp"
+        android:background="#80E1E1B3"
+        android:text="SWEETS"
+        android:textColor="#B52E2E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/c6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b2"
+        android:text="Gulabjamun"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/c7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c6"
+        android:text="Rasgulla"
+        android:textColor="#FFFFFF" />
+
+    <CheckBox
+        android:id="@+id/c8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c7"
+        android:text="Jalebii"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/t5"
+        android:layout_width="198dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/c8"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="42dp"
+        android:background="#80E1E1B3"
+        android:text="Save"
+        android:textColor="#B52E2E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

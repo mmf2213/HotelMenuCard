@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/starter" />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="STARTERS"
+        android:textColor="#E32C28"
+        android:textSize="40dp"
+        android:textStyle="normal|bold" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c1"
+        android:text="Brocoli Tikki"
+        android:layout_below="@+id/t"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c2"
+        android:text="Aloo Tikki"
+        android:layout_below="@+id/c1"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c3"
+        android:text="Crispy Corn"
+        android:layout_below="@+id/c2"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c4"
+        android:text="Goby Munchurian"
+        android:layout_below="@+id/c3"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c5"
+        android:text="Paneer Munchurian"
+        android:layout_below="@+id/c4"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c6"
+        android:text="French Fries"
+        android:layout_below="@+id/c5"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c7"
+        android:text="Manchurian Roll"
+        android:layout_below="@+id/c6"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c8"
+        android:text="Paneer Roll"
+        android:layout_below="@+id/c7"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c9"
+        android:text="Cheese Grilled Sandwitch"
+        android:layout_below="@+id/c8"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c9"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="71dp"
+        android:background="#80E1E1B3"
+        android:text="save"
+        android:textColor="#E32C28"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</RelativeLayout>

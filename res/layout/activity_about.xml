@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="false"
+        android:background="@mipmap/about" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:text="Our restaurant opened its doors in 1984.It was placed at the heart of life in India,Where she become an institution. Smiling,quality service,cuisine are always present to allow you all to live a real moment of pleasure.We welcome you and hope you'll want to return."
+        android:textColor="#F8F7F4"
+        android:textSize="24sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_below="@+id/info"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="14dp"
+        android:background="#FFFFFF"
+        android:text="Address :- Solapur - Pune Hwy, Chincholikati, Maharashtra 413222"
+        android:textColor="#873434"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/b2"
+        android:layout_width="406dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/info"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="155dp"
+        android:background="#FFFFFF"
+        android:text="Contact Us :- +91 94XXXXXXXX"
+        android:textColor="#873434"
+        android:textSize="24sp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/b3"
+        android:layout_width="408dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/info"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="250dp"
+        android:background="#FFFFFF"
+        android:text="Email :- nisarg@gmail.com"
+        android:textColor="#873434"
+        android:textSize="24sp" />
+
+</RelativeLayout>
